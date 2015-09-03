@@ -45,6 +45,16 @@ To add a different scrolling speed to any foreground element, you have to add an
 <img src="path/to/image" data-enllax-ratio=".5" data-enllax-type="foreground" />
 ````
 
+###### **  2.1 Limit displacement**
+To limit the displacement in both directions, you have to set `data-enllax-up/down` to limit up or down displacement.
+
+- Max up limit: `data-enllax-up`
+- Max down limit: `data-enllax-down`
+
+````html
+<img src="path/to/image" data-enllax-up="20" data-enllax-ratio=".5" data-enllax-type="foreground" />
+````
+
 **3. Parallax on Direction-ware:** <br/>
 Parallax effect can now be applied in both vertical and horizontal directions. You have to add another data attribute additionally. The value for this data attribute can be 'vertical' or 'horizontal'. And, default value is 'vertical'
 
